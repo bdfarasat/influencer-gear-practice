@@ -78,8 +78,58 @@ nav ul li a {
 .logos{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* gap: 0px; */
     justify-items: center;
+}
+
+/* Product Section */
+.product-head{
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: 100px;
+
+}
+.product{
+    justify-items: center;
+}
+.product-container{
+    margin: 0 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.products{
+    padding: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    /* justify-self: center; */
+}
+.products h5{
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.products h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.products p{
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #787885;
+}
+
+.see-more{
+    font-weight: bold;
+    color: rgba(224, 44, 109, 0.87);
+}
+.see-more1{
+    justify-items: end;
+    margin: 0px 75px;
+    cursor: pointer;
 }
 
 /* Smaller device responsive */
